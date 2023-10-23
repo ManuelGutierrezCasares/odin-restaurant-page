@@ -1,6 +1,6 @@
 function contacts(name,role,tel){
     const card = document.createElement('div');
-    card.classList.add('bg-light', 'w-25', 'my-5');
+    card.classList.add('bg-light', 'w-25', 'my-4');
     const cardName = document.createElement('h3');
     const cardRole = document.createElement('p');
     const cardTel = document.createElement('p');
